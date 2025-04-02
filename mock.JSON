@@ -1,0 +1,45 @@
+{
+  "mock_user_books":
+  [
+    {
+      "id": "379217",
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "default_cover": "https://assets.hardcover.app/editions/19454574/9509867934646082.jpg",
+      "description": "Told in Kvothe's own voice, this is the tale of the magically gifted young man who grows to be the most notorious wizard his world has ever seen.\\r\\n\\r\\nThe intimate narrative of his childhood in a troupe of traveling players, his years spent as a near-feral orphan in a crime-ridden city, his daringly brazen yet successful bid to enter a legendary school of magic, and his life as a fugitive after the murder of a king form a gripping coming-of-age story unrivaled in recent literature.\\r\\n\\r\\nA high-action story written with a poet's hand, The Name of the Wind is a masterpiece that will transport readers into the body and mind of a wizard.",
+      "last_read_date": "2021-01-13"
+    },
+    {
+      "id": "381332",
+      "title": "The Wise Man's Fear",
+      "author": "Patrick Rothfuss",
+      "default_cover": "https://assets.hardcover.app/edition/12129615/d30f47b6cccbb010d2fe11e78ee6ecfa10f86740.jpeg",
+      "description": "Preceded by: [The Name of the Wind][1]\\r\\n\\r\\nIn The Wise Man's Fear, Kvothe searches for answers, attempting to uncover the truth about the mysterious Amyr, the Chandrian, and the death of his parents. Along the way, Kvothe is put on trial by the legendary Adem mercenaries, forced to reclaim the honor of his family, and travels into the Fae realm. There he meets Felurian, the faerie woman no man can resist, and who no man has ever survived...until Kvothe.\\r\\n\\r\\nNow, Kvothe takes his first steps on the path of the hero and learns how difficult life can be when a man becomes a legend in his own time.\\r\\n\\r\\n([source][2])\\r\\n\\r\\n\\r\\n  [1]: https://openlibrary.org/works/OL9772092W/The_Name_of_the_Wind\\r\\n  [2]: https://www.patrickrothfuss.com/content/books.asp",
+      "last_read_date": "2021-02-06"
+    },
+    {
+      "id": "428290",
+      "title": "A Court of Thorns and Roses",
+      "author": "Sarah J. Maas",
+      "default_cover": "https://assets.hardcover.app/external_data/27599647/a7e4c34149071bee70a437d0d9cee1bc56eacf47.jpeg",
+      "description": "When nineteen-year-old huntress Feyre kills a wolf in the woods, a beast-like creature arrives to demand retribution. Dragged to a treacherous magical land she only knows about from legends, Feyre discovers that her captor is not truly a beast, but one of the lethal, immortal faeries who once ruled their world.\\n\\nAs she dwells on his estate, her feelings for the faerie, Tamlin, transform from icy hostility into a fiery passion that burns through every lie and warning she’s been told about the beautiful, dangerous world of the Fae. But an ancient, wicked shadow over the faerie lands is growing, and Feyre must find a way to stop it . . . or doom Tamlin—and his world—forever.",
+      "last_read_date": "2021-02-12"
+    },
+    {
+      "id": "428929",
+      "title": "A Court of Mist and Fury",
+      "author": "Sarah J. Maas",
+      "default_cover": "https://assets.hardcover.app/external_data/50323130/22aae36f178586d62c607f5664f6e918fe08703b.jpeg",
+      "description": "Feyre survived Amarantha’s clutches to return to the Spring Court–but at a steep cost. Though she now has the powers of the High Fae, her heart remains human, and it can’t forget the terrible deeds she performed to save Tamlin’s people.\\n\\nNor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court. As Feyre navigates its dark web of politics, passion, and dazzling power, a greater evil looms—and she might just be key to stopping it. But only if she can harness her harrowing gifts, heal her fractured soul, and decide how she wishes to shape her future—and the future of a world cleaved in two.",
+      "last_read_date": "2021-02-17"
+    },
+    {
+      "id": "458947",
+      "title": "A Court of Wings and Ruin",
+      "author": "Sarah J. Maas",
+      "default_cover": "https://assets.hardcover.app/edition/20190096/4a2e402a6e3cd048d4c25b8ac30ffdaeb385d854.jpeg",
+      "description": "Feyre has returned to the Spring Court, determined to gather information on Tamlin's actions and learn what she can about the invading king threatening to bring her land to its knees. But to do so she must play a deadly game of deceit. One slip could bring doom not only for Feyre, but for everything-and everyone-she holds dear.\\n\\nAs war bears down upon them all, Feyre endeavors to take her place amongst the High Fae of the land, balancing her struggle to master her powers-both magical and political-and her love for her court and family. Amidst these struggles, Feyre and Rhysand must decide whom to trust amongst the cunning and lethal High Lords, and hunt for allies in unexpected places.\\n\\nIn this thrilling third book in the #1 bestselling series from Sarah J. Maas, the fate of Feyre's world is at stake as armies grapple for power over the one thing that could destroy it.",
+      "last_read_date": "2021-02-27"
+    }
+  ]
+}
