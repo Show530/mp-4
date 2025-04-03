@@ -8,7 +8,7 @@ export default function BookDisplay({inputBooks,}: { inputBooks: BookProps[]; })
     const [books, setBooks] = useState(inputBooks);
 
     return(
-        <div className="flex flex-col items-center">
+        <div className="inline-block">
             {books.map((b) => (
                 // must have a key for mapping
                 <BookPreview key={b.id} book={b} />

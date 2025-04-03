@@ -6,26 +6,37 @@ import {useState} from "react";
 
 
 export default function LoadYearForm(){
+    const [year, setYear] = useState("2020");
+
+    function handlePress(val: string) {
+        setYear(val);
+    }
+
+    const handleLoad = async () => {
+
+    }
+
     return (
-        <form>
-            <FormHelperText>Select a year!</FormHelperText>
-            <div className="w-full flex justify-center">
-                <Button value="2021" type="submit" variant="contained" sx={{width:"80px"}} >
+        <>
+        <div className="w-full flex justify-center m-2">
+            <form action={"/" + year} method="POST">
+                <Button onClick={() => handlePress('2021')} type="submit" >
                     2021
                 </Button>
-                <Button value="2022" type="submit" variant="contained" sx={{width:"80px"}} >
+                <Button onClick={() => handlePress('2022')} type="submit" >
                     2022
                 </Button>
-                <Button value="2023" type="submit" variant="contained" sx={{width:"80px"}} >
+                <Button onClick={() => handlePress('2023')} type="submit" >
                     2023
                 </Button>
-                <Button value="2024" type="submit" variant="contained" sx={{width:"80px"}} >
+                <Button onClick={() => handlePress('2024')} type="submit" >
                     2024
                 </Button>
-                <Button value="2025" type="submit" variant="contained" sx={{width:"80px"}} >
+                <Button onClick={() => handlePress('2025')} type="submit" >
                     2025
                 </Button>
-            </div>
-        </form>
+            </form>
+        </div>
+        </>
     );
 }
