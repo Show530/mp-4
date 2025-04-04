@@ -1,4 +1,5 @@
 import {BookEntry} from '@/new-types';
+// import {Rickroll} from "../public/Rickroll.jpg"
 
 export default function BookPreview({book}:{book:BookEntry}) {
     return(
@@ -7,7 +8,7 @@ export default function BookPreview({book}:{book:BookEntry}) {
             <div className="justify-self-center">
                 <img loading="lazy"
                      className="object-cover w-50 h-85 justify-center"
-                     src={book.book.default_cover_edition?.cached_image?.url ?? "https://static.wikia.nocookie.net/dqw4w9wgxcq/images/0/08/Site-background-dark/revision/latest?cb=20220428173233"}
+                     src={book.book.default_cover_edition?.cached_image?.url ?? "/Rickroll.jpg"}
                      alt={"Cover of " + book.book.title}/>
                 <h3 className="font-bold">{book.book.title}</h3>
             </div>
