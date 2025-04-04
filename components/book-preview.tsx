@@ -1,4 +1,4 @@
-import {BookEntry, NewBookProps} from '@/new-types';
+import {BookEntry} from '@/new-types';
 
 export default function BookPreview({book}:{book:BookEntry}) {
     return(

@@ -1,7 +1,6 @@
 "use server";
 // retrieves server-side data from the json api
-import mockData from "@/mock.json";
-import {BookProps} from "@/types";
+// import mockData from "@/mock.json";
 import {NewBookProps} from "@/new-types";
 import {getYearData} from "@/app/api/getYearData/route";
 
