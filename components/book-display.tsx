@@ -9,7 +9,7 @@ export default function BookDisplay({inputBooks,}: { inputBooks: NewBookProps; }
         <div className="inline-block">
             {inputBooks.map((b) => (
                 // must have a key for mapping
-                <BookPreview key={b.book.id} book={b} />
+                <BookPreview key={b.book.id} bookData={b} />
             ))}
         </div>
     );
