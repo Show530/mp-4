@@ -8,7 +8,7 @@ export default function Home() {
                   <h1>Welcome to my book site!</h1>
               </div>
               <div className="flex flex-col items-center bg-pink-200 p-4">
-                  <p>Click a button to show books that I've read from the given year!</p>
+                  <p>Click a button to show books that I&apos;ve read from the given year!</p>
               </div>
               <LoadYearForm />
           </main>
