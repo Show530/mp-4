@@ -1,7 +1,7 @@
 "use client";
 
 // import { Textarea } from "@mui/joy";
-import { Button} from "@mui/material";
+import { Button, Box } from "@mui/material";
 import {useState} from "react";
 // import {getYearData} from "@/app/api/getYearData/route";
 // import {NewBookProps} from "@/new-types";
@@ -17,6 +17,7 @@ export default function LoadYearForm(){
         }
     }
 
+    // original location for testing purposes
     // const handleLoad = async () => {
     //     const data  = await getYearData(year);
     //     // console.log(data);
@@ -32,23 +33,23 @@ export default function LoadYearForm(){
         <>
         <div className="w-full flex justify-center m-2">
             <form action={"/" + year} method="POST">
-                {/*action={"/" + year} method="POST"*/}
-                {/*action={handleLoad}*/}
-                <Button onClick={() => handlePress('2021')} type="submit" >
-                    2021
-                </Button>
-                <Button onClick={() => handlePress('2022')} type="submit" >
-                    2022
-                </Button>
-                <Button onClick={() => handlePress('2023')} type="submit" >
-                    2023
-                </Button>
-                <Button onClick={() => handlePress('2024')} type="submit" >
-                    2024
-                </Button>
-                <Button onClick={() => handlePress('2025')} type="submit" >
-                    2025
-                </Button>
+                <Box sx={{ '& button': { m: 1 } }} >
+                    <Button variant="contained" size="large" onClick={() => handlePress('2021')} type="submit" >
+                        2021
+                    </Button>
+                    <Button variant="contained" size="large" onClick={() => handlePress('2022')} type="submit" >
+                        2022
+                    </Button>
+                    <Button variant="contained" size="large" onClick={() => handlePress('2023')} type="submit" >
+                        2023
+                    </Button>
+                    <Button variant="contained" size="large" onClick={() => handlePress('2024')} type="submit" >
+                        2024
+                    </Button>
+                    <Button variant="contained" size="large" onClick={() => handlePress('2025')} type="submit" >
+                        2025
+                    </Button>
+                </Box>
             </form>
         </div>
         </>

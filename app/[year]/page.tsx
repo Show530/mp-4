@@ -11,8 +11,8 @@ export default async function YearBooks({params,}: {
         <>
             <main>
                 <div className="flex flex-col items-center bg-blue-200 p-4">
-                    <h2>{year}</h2>
-                    {inputBooks != null? <BookDisplay inputBooks={inputBooks}/>: null }
+                    <h2 className="text-3xl">Books from {year}!</h2>
+                    {inputBooks != null? <BookDisplay inputBooks={inputBooks}/>: <h1>No data found, sorry!</h1> }
                 </div>
             </main>
         </>

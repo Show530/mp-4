@@ -3,8 +3,8 @@ import {BookEntry} from '@/new-types';
 export default function BookPreview({bookData}:{bookData:BookEntry}) {
 
     return(
-        <div className="bg-sky-300 round-xl p-4 m-2 w-100 justify-center">
-            <h2 className="font-bold text-3xl text-center">Finished: {bookData.last_read_date}</h2>
+        <div className="bg-white round-xl p-4 m-3 w-100 justify-center rounded-xl">
+            <h2 className="font-bold text-3xl text-center">Date finished: {bookData.last_read_date}</h2>
 
             <div className="text-center items-center justify-center">
                 <img loading="lazy"
