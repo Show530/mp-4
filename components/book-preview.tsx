@@ -1,5 +1,4 @@
 import {BookEntry} from '@/new-types';
-// import {Rickroll} from "../public/Rickroll.jpg"
 
 export default function BookPreview({book}:{book:BookEntry}) {
     // function author_name() {

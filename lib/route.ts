@@ -51,7 +51,7 @@ export async function getYearData(year: string): Promise<NewBookProps | null> {
         const data = await result.json();
         // const userBooks = data.me[0]['user_books']
         // return userBooks;
-        return data.data.me[0].user_books ?? null;
+        return data.data?.me[0]?.user_books ?? null;
     }
     catch (error) {
         console.error(error);
