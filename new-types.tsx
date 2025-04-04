@@ -1,6 +1,6 @@
 export type NewBookProps = BookEntry[];
 
-export interface BookEntry {
+export type BookEntry = {
     // "me": Array<{
     //     "user_books": Array<{
             "book": {

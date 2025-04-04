@@ -1,15 +1,6 @@
 import {BookEntry} from '@/new-types';
 
 export default function BookPreview({book}:{book:BookEntry}) {
-    // function author_name() {
-    //     if (book.book.cached_contributors[0].author.name != null) {
-    //         return <h3 className="font-bold">By {book.book.cached_contributors[0].author.name}</h3>
-    //     }
-    //     else {
-    //         return <h3></h3>
-    //     }
-    //
-    // }
 
     return(
         <div className="bg-sky-300 round-xl p-4 m-2 w-100 justify-center">
