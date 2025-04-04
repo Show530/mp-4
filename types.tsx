@@ -6,4 +6,5 @@ export type BookProps= {
     default_cover: string,
     description: string,
     last_read_date: string,
+
 }

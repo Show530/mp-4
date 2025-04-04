@@ -3,23 +3,38 @@
 import { Textarea } from "@mui/joy";
 import { Button, FormHelperText, TextField } from "@mui/material";
 import {useState} from "react";
+import {getYearData} from "@/app/api/getYearData/route";
+import {BookProps} from "@/types";
+import {NewBookProps} from "@/new-types";
 
 
 export default function LoadYearForm(){
-    const [year, setYear] = useState("2020");
+    const [year, setYear] = useState("");
+    const [bookData, setBookData] = useState<NewBookProps | null>(null);
 
     function handlePress(val: string) {
-        setYear(val);
+        if(val != year) {
+            setYear(val);
+        }
     }
 
     const handleLoad = async () => {
-
+        const data  = await getYearData(year);
+        // console.log(data);
+        if(data != null){
+            console.log("Raw data:", data);
+            // console.log("user_books length:", data?.user_books?.length);
+            setBookData(data);
+            console.log("Set data", bookData);
+        }
     }
 
     return (
         <>
         <div className="w-full flex justify-center m-2">
             <form action={"/" + year} method="POST">
+                {/*action={"/" + year} method="POST"*/}
+                {/*action={handleLoad}*/}
                 <Button onClick={() => handlePress('2021')} type="submit" >
                     2021
                 </Button>
